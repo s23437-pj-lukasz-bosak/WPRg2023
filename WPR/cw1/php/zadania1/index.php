@@ -67,7 +67,7 @@ $text1 = (string)readline();
 echo "wpisz text 2 : ";
 $text2 = (string)readline();
 
-print "''"."%".$text1.$text2."%#$"."''";
+print "\""."%".$text1.$text2."%#$"."\"";
 
 ?>
 
