@@ -1,0 +1,8 @@
+przykladowy tekst z pola1: asdfasdfasdf
+przykladowy tekst z 2 giego pola: asdfsadfasdf
+przykladowy tekst z pola1: 1234
+przykladowy tekst z 2 giego pola: 1234
+przykladowy tekst z pola1: siema
+przykladowy tekst z 2 giego pola: siemasdd
+przykladowy tekst z pola1: cokolwiek 1
+przykladowy tekst z 2 giego pola: cokolwiek 2
