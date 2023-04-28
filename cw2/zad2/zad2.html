@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form METHOD="POST" ACTION="zad2b.php">
+
+
+    <legend>Liczba osób</legend>
+    <label for="liczba_osob">Wybierz liczbę osób:</label>
+    <select name="liczba_osob">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <br>
+    <br>
+    <legend>Dane rezerwującego</legend>
+    <br>
+
+    <label for="imie">Podaj imię</label>
+    <input type="text" name="imie" placeholder="Imię" required>
+    <br>
+
+    <label for="nazwisko">Podaj nazwisko</label>
+    <input type="text" name="nazwisko" placeholder="Nazwisko" required>
+
+    <br>
+
+    <label for="email">Podaj adres e-mail</label>
+    <input type="email" name="email" placeholder="email@xyz.pl" required>
+    <br>
+
+    <label for="nrtelefonu">Podaj numer telefonu</label>
+    <input type="tel" id="nrtelefonu" name="nrtelefonu"
+           placeholder=XXXXXXXXX required>
+    <br>
+
+    <label for="adres">Podaj adres</label>
+    <input type="text" name="adres" placeholder="Adres" required>
+
+    <br>
+    <label for="kartakredytowa">Podaj nr karty kredytowej</label>
+    <input type="text" name="kartakredytowa" maxlenght="10" placeholder="10 DIGITS" required>
+
+    </br>
+
+    <label for="dataprzyjazdu">podaj date przyjazdu</label>
+    <input type="date" name="dataprzyjazdu" required>
+
+    <label for="datawyjazdu">podaj date wyjazdu</label>
+    <input type="date" name="datawyjazdu" required>
+
+    <br>
+    <legend>Informacje dodatkowe</legend>
+
+    <br>
+    <label for="lozkodziecko">Czy jest potrzebne dostawienie łóżka dla dziecka?</label>
+    <br>
+    <input type="radio" name="lozkodziecko" value="Tak">Tak
+    <input type="radio" name="lozkodziecko" value="Nie" checked>Nie
+
+
+    <p>Opcjonalnie:</p>
+
+    <input type="checkbox" id="telewizor" name="udogodnienia[]" value="telewizor">
+    <label for="telewizor">telewizor</label>
+
+    <input type="checkbox" id="zwierze" name="udogodnienia[]" value="zwierze">
+    <label for="zwierze">zwierzer</label>
+
+
+    <input type="checkbox" id="popielniczka" name="udogodnienia[]" value="popielniczka">
+    <label for="popielniczka">Popielniczka</label>
+
+
+    <input type="checkbox" id="klimatyzacja" name="udogodnienia[]" value="klimatyzacja">
+    <label for="klimatyzacja">Klimatyzacja</label>
+
+    <input type="checkbox" id="widok na morze" name="udogodnienia[]" value="widok na morze">
+    <label for="widok na morze">widok na morze</label>
+
+    <input type="submit" value="Wyślij">
+
+
+</form>
+</body>
+</html>
